@@ -3,15 +3,18 @@ const express = require('express')
 const session = require('cookie-session')
 const path = require('path')
 const app = express()
-
-//9.使用封装好的中间件
-app.use(require('./modules/cs-access-log'))
+const body = require('body-parser')
 
 //6.注册session中间件
 app.use(session({
     name: "sessionId",
     secret: "candy",
     maxAge: 24 * 60 * 1000
+}))
+
+//使用body-parser中间件
+app.use(body.urlencoded({
+    extended: false
 }))
 
 //7.配置art-template
@@ -22,13 +25,11 @@ app.set('view engine', 'html')
 //2.静态资源托管
 app.use(express.static('./public'))
 
-//5.注册路由模块
-// app.use('/admin', require('./router/admin'))
+//9.使用封装好的中间件
+app.use(require('./middlewares/cs-access-log'))
 
-//3.创建测试'/'路由,用于测试可否正常启动
-app.get('/', (req, res) => {
-    res.send('<h1>It\'s works</h1>')
-})
+//5.注册路由模块
+app.use('/admin', require('./router/admin'))
 
 //8.配置错误中间件
 app.use((req, res, next) => {

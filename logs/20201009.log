@@ -1,0 +1,12 @@
+10.11.58.209 - 2020-10-09 17:51:03 - GET - /sockjs-node/info?t=1602237063461 - Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Mobile Safari/537.36 
+127.0.0.1 - 2020-10-09 17:51:06 - GET - / - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 
+127.0.0.1 - 2020-10-09 17:51:06 - GET - /favicon.ico - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 
+127.0.0.1 - 2020-10-09 17:51:12 - GET - /admin/login - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 
+10.11.58.209 - 2020-10-09 17:51:13 - GET - /sockjs-node/info?t=1602237073911 - Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Mobile Safari/537.36 
+127.0.0.1 - 2020-10-09 17:51:17 - POST - /admin/login - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 
+127.0.0.1 - 2020-10-09 17:51:19 - GET - /admin/index - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 
+127.0.0.1 - 2020-10-09 17:51:19 - GET - /admin/welcome - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 
+127.0.0.1 - 2020-10-09 17:51:22 - GET - /admin/adminshow - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 
+127.0.0.1 - 2020-10-09 17:51:23 - GET - /admin/movie/movieshow - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 
+127.0.0.1 - 2020-10-09 17:51:24 - GET - /admin/movie/add - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 
+10.11.58.209 - 2020-10-09 17:51:31 - GET - /sockjs-node/info?t=1602237091314 - Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Mobile Safari/537.36 
